@@ -1,6 +1,173 @@
 body {
   background-color: rgb(190, 165, 115);
 }
-logo {
-  color: rgb(246, 115, 21);
+
+/*------------- index.html------------ */
+
+.site-body {
+}
+.header {
+}
+.header-logo:focus {
+}
+.header-logo-half {
+}
+.header-navigation {
+}
+.header-pages-list {
+}
+.header-studio-page {
+}
+.header-studio-link:hover,
+.header-studio-link:focus {
+  color: rgb(32, 212, 22);
+}
+.header-portfolio-page {
+}
+.header-contacts-page {
+}
+.header-contacts {
+}
+.header-contacts-list {
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: rgb(32, 212, 22);
+}
+.header-phone:hover,
+.header-phone:focus {
+  color: rgb(32, 212, 22);
+}
+.hero {
+}
+.hero-title {
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: rgb(32, 212, 22);
+}
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantage {
+}
+.advantage-description {
+}
+.specialization {
+}
+.specialization-title {
+}
+.specialization-list {
+}
+.specialization-item {
+}
+.team {
+}
+.team-title {
+}
+.team-list {
+}
+.team-member {
+}
+.team-member-name {
+}
+.team-member-position {
+}
+.footer {
+}
+.footer-logo-half {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.contacts-item-adress {
+}
+.footer-adress:hover,
+.footer-adress:focus {
+  color: rgb(32, 212, 22);
+}
+.contacts-item-mail {
+}
+.footer-mail:hover,
+.footer-mail:focus {
+  color: rgb(32, 212, 22);
+}
+.contacts-item-phone {
+}
+.footer-phone:hover,
+.footer-phone:focus {
+  color: rgb(32, 212, 22);
+}
+
+/* ------portfolio-------- */
+
+.site-body {
+}
+.header-logo {
+}
+.header-logo-half {
+}
+.header-navigation {
+}
+.header-pages-list {
+}
+.header-studio-page {
+}
+.header-studio-link {
+}
+.header-portfolio-page {
+}
+.header-contacts-page {
+}
+.header-contacts {
+}
+.header-contacts-list {
+}
+.header-mail {
+}
+.header-phone {
+}
+.portfolio-title {
+}
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-item-btn {
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: rgb(32, 212, 22);
+}
+.portfolio-examples-list {
+}
+.portfolio-examples-item {
+}
+.porfolio-link:hover,
+.porfolio-link:focus {
+  color: rgb(32, 212, 22);
+}
+.portfolio-example-name {
+}
+.portfolio-example-product {
+}
+.footer {
+}
+.footer-logo-half {
+}
+.footer-contacts {
+}
+.footer-contacts-list {
+}
+.footer-contacts-adress {
+}
+.footer-contacts-mail {
+}
+.footer-contacts-phone {
 }
