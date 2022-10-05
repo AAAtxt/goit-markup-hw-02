@@ -5,43 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body class="site-body">
-    <!-- Шапка -->
+     <!-- Шапка -->
+
     <header class="header">
-      <a class="header-logo" href="./index.html" lang="en">
+      <a class="header-logo underline-none"  href="./studio.html" lang="en">
         <span class="header-logo-half">Web</span>Studio</a
       >
       <nav class="header-navigation">
-        <ul class="header-pages-list">
+        <ul class="header-pages-list point-none" >
           <li class="header-studio-page">
-            <a class="header-studio-link" href="./index.html">Студія</a>
+            <a class="header-studio-link underline-none"  href="./studio.html">Студія</a>
           </li>
           <li class="header-portfolio-page">
-            <a class="header-studio-link" href="./portfolio.html">Портфоліо</a>
+            <a class="header-studio-link underline-none current"  href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="header-contacts-page">
-            <a class="header-studio-link" href="#">Контакти</a>
+            <a class="header-studio-link underline-none"  href="#">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="header-contacts">
+      <ul class="header-contacts point-none">
         <li class="header-contacts-list">
-          <a class="header-mail" href="mailto:info@devstudio.com"
+          <a class="header-mail underline-none"  href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li class="header-contacts-list">
-          <a class="header-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="header-phone underline-none" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
+
     <!-- Основное содержание -->
     <main>
       <h1 class="portfolio-title">Портфоліо</h1>
       <section class="portfolio">
-        <ul class="portfolio-list">
+        <ul class="portfolio-list point-none">
           <li class="portfolio-item-btn">
             <button type="button" class="portfolio-btn">Усі</button>
           </li>
@@ -58,9 +64,9 @@
             <button type="button" class="portfolio-btn">Маркетинг</button>
           </li>
         </ul>
-        <ul class="portfolio-examples-list">
+        <ul class="portfolio-examples-list point-none">
           <li class="portfolio-examples-item">
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none" href="#">
               <img
                 src="/images/img1.jpg"
                 alt="сторінка веб-сайту"
@@ -71,7 +77,7 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img2.jpg"
                 alt="Постер з баскетболістами"
@@ -84,7 +90,7 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img3.jpg"
                 alt="Логтип рибного ресторану"
@@ -95,14 +101,14 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img src="/images/img4.jpg" alt="Навушники" width="370" />
               <h2 class="portfolio-example-name">Проєкт Prime</h2>
               <p class="portfolio-example-product">Маркетинг</p>
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img5.jpg"
                 alt="Дві коробки на столі"
@@ -113,7 +119,7 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img6.jpg"
                 alt="Монітор з різними напмсами на екрані"
@@ -124,7 +130,7 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img7.jpg"
                 alt="Розгорнутий глянцевий журнал"
@@ -135,14 +141,14 @@
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img src="/images/img8.jpg" alt="Етикетка товару" width="370" />
               <h2 class="portfolio-example-name">Проєкт LAB</h2>
               <p class="portfolio-example-product">Маркетинг</p>
             </a>
           </li>
           <li>
-            <a class="porfolio-link" href="#">
+            <a class="porfolio-link underline-none " href="#">
               <img
                 src="/images/img9.jpg"
                 alt="На ноубуці відкрито додаток"
@@ -156,31 +162,20 @@
       </section>
     </main>
     <!-- Нижняя часть -->
-    <footer class="footer">
-      <a class="footer-logo" lang="en" href="/index.html">
-        <span class="footer-logo-half">Web</span> Studio</a
-      >
+    <footer class="footer"
+      <a class="footer-logo" lang="en" href="/index.html"> <span class="footer-logo-half">Web</span> Studio</a>
       <address class="footer-contacts">
-        <ul class="footer-contacts-list">
+        <ul class="footer-contacts-list point-none">
           <li class="contacts-item-adress">
-            <a
-              class="footer-adress"
+            <a class="footer-adress underline-none"
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li class="contacts-item-mail">
-            <a class="footer-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="contacts-item-phone">
-            <a class="footer-phone" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
+          <li class="contacts-item-mail"><a class="footer-mail underline-none" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contacts-item-phone"><a class="footer-phone underline-none" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

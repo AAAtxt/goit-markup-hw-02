@@ -1,28 +1,66 @@
-body {
-  background-color: rgb(190, 165, 115);
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --background: #f5f4fa;
+  --background-hero-footer: #2f303a;
+  --accent-color: #2196f3;
 }
 
-/*------------- index.html------------ */
+/*------------- studio.html------------ */
 
 .site-body {
+  font-family: "Roboto", "sans-serif";
+  background-color: var(--background);
+  color: var(--primary-text-color);
 }
-.header {
+
+.point-none {
+  list-style: none;
 }
+
+.underline-none {
+  text-decoration: none;
+}
+
+/* -------Шапка------- */
+
 .header-logo:focus {
 }
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+
 .header-logo-half {
+  color: var(--accent-color);
 }
-.header-navigation {
+
+.header-studio-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
-.header-pages-list {
+
+a.current {
+  color: var(--accent-color);
 }
+
 .header-studio-page {
 }
 .header-studio-link:hover,
 .header-studio-link:focus {
-  color: rgb(32, 212, 22);
+  color: var(--primary-text-color);
 }
 .header-portfolio-page {
+  color: var(--accent-color);
 }
 .header-contacts-page {
 }
@@ -32,7 +70,7 @@ body {
 }
 .header-mail:hover,
 .header-mail:focus {
-  color: rgb(32, 212, 22);
+  color: var(--accent-color);
 }
 .header-phone:hover,
 .header-phone:focus {
