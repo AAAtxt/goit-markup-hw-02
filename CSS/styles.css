@@ -137,9 +137,7 @@
   color: var(--secondary-text-color);
 }
 
-.team {
-  background-color: var(--background-color-btn);
-}
+
 
 .team-title {
   color: var(--secondary-text-color);
@@ -162,8 +160,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var(--background);
-}
+  
 
 .footer {
   background-color: var(--background-hero-footer);
