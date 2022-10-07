@@ -137,6 +137,14 @@
   color: var(--secondary-text-color);
 }
 
+.team {
+  background-color: var(--background-color-btn);
+}
+
+.team-member {
+  background-color: var(--background);
+}
+
 .team-title {
   color: var(--secondary-text-color);
   font-size: 36px;
